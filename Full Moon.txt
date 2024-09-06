@@ -1,0 +1,17 @@
+LinkHook = "https://discord.com/api/webhooks/1280503401918103573/PxhdwFzXqCNSTCUJelXc9IMv32dMhdji6C8j1mLvwJfezBV7078zgTbUYE7wjrSbjHw5"
+
+local Moon = {
+["8"] = "http://www.roblox.com/asset/?id=9709149431", --🌕
+["7"] = "http://www.roblox.com/asset/?id=9709149052", --🌖
+["6"] = "http://www.roblox.com/asset/?id=9709143733", --🌗
+["5"] = "http://www.roblox.com/asset/?id=9709150401", --🌘
+["4"] = "http://www.roblox.com/asset/?id=9709135895", --🌑
+["3"] = "http://www.roblox.com/asset/?id=9709139597", --🌒
+["2"] = "http://www.roblox.com/asset/?id=9709150086", --🌓
+["1"] = "http://www.roblox.com/asset/?id=9709149680", --🌔
+};
+
+ if game:GetService("Lighting").Sky.Moon TextureId == Moon ["1"] then
+    MoonIcon = '🌔'
+ elseif game:GetService("Lighting").Sky.Moon TextureId == Moon ["2"] then
+    MoonIcon = '🌓'
